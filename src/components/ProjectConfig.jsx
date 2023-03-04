@@ -52,26 +52,6 @@ export const AllProjects = [
             'Duplexing',
         ],
     },
-     {
-        image: 'https://lh3.googleusercontent.com/JqK7RKj00B4tMM_WIpjFxOnVCGUQk2ScEfP1zyl9jSrd6xT24_ZxjckVznPSw1txOOLNSZukdAn-Tn7uI4neSostMA=w128-h128-e365-rj-sc0x00ffffff',
-        title: 'LGCY Wallet Chrome Extension',
-        bodyText: [
-            '- A browser extension for chrome which offers various features for lgcy blockchain and platform users',
-            '- Users can login into the platform by connecting their extension wallet without compromising private keys.',
-            '- Users can Send  USDL and LGCY along with other platform tokens. Extension will sign and broadcast the transaction signature on blockchain. To receive funds , the extension shows QR code and wallet address as well.',
-        ],
-        links: [
-            {
-                text: 'Live',
-                href: 'https://chrome.google.com/webstore/detail/lgcywallet/efhiaklffelfpggpagomfaaaflbkpohe',
-            },
-        ],
-        tags: [
-            'ReactJs',
-            'Duplexing',
-        ],
-    },
- 
     {
         image: 'https://lgcyscan.network/assets/img/logo.png',
         title: 'Lgcy',
