@@ -1,0 +1,15 @@
+{
+    "experiences": [
+        {
+            "title": "Software Engineer",
+            "subtitle": "Cyber Infrastructure, Indore",
+            "workType": "Full-time",
+            "workDescription": [
+                "Developed the Tradeblocknet project which was basically a DApp",
+                "Worked on LGCY project which was a Blockchain Explore",
+                "Worked on OET project which was a Ocuupational English Test"
+            ],
+            "dateText": "01/01/2021"
+        }
+    ]
+}

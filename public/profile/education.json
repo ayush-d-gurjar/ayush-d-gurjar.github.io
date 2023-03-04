@@ -1,0 +1,19 @@
+{
+    "education":[
+        {
+            "title": "Mar 2014 - Apr 2018",
+            "cardTitle": "Polytechnic Diploma, Computer Science",
+            "cardSubtitle":"RGPV University, Harda",
+            "cardDetailedText": "CGPA - 6.5",
+            "icon" : {
+                "src": "images/education/lorem-ipsum.png"
+            }
+        },
+        {
+            "title": "Aug 2018 - Dec 2021",
+            "cardTitle": "B.Tech, Computer Science",
+            "cardSubtitle":"RGPV, Indore",
+            "cardDetailedText": "CGPA - 7.0"
+        }
+    ]
+}
