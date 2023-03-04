@@ -18,7 +18,6 @@ module.exports = {
     'react',
   ],
   rules: {
-    'prettier/prettier': ['error', { singleQuote: true }],
     'prefer-template': 0,
     'react/no-children-prop': [0],
     'linebreak-style': 0,
