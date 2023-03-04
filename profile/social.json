@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://www.linkedin.com/in/aayush-gurjar-465217267/"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/ayush-d-gurjar"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:ayush.d.gurjar@gmail.com"
+        }
+    ]
+}
