@@ -4,7 +4,7 @@ import { Container, Col, Row } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import Fade from 'react-reveal';
 import Header from './Header';
-// import endpoints from '../constants/endpoints';
+import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
 
 const styles = {
@@ -35,13 +35,12 @@ function About(props) {
   );
 
   useEffect(() => {
-    setData('A highly skilled Software Developer 🚀 with a solid foundation in Blockchain and Smart Contracts, able to quickly learn and implement new technologies. A team player with a proven ability in problem-solving, analysis and the ability to work well in a team environment.');
-    // fetch(endpoints.about, {
-    //   method: 'GET',
-    // })
-    //   .then((res) => res.json())
-    //   .then((res) => setData(res))
-    //   .catch((err) => err);
+    fetch(endpoints.about, {
+      method: 'GET',
+    })
+      .then((res) => res.json())
+      .then((res) => setData(res))
+      .catch((err) => err);
   }, []);
 
   return (
@@ -54,7 +53,7 @@ function About(props) {
               <Fade>
                 <Row>
                   <Col style={styles.introTextContainer}>
-                    {parseIntro(data)}
+                    {parseIntro(data.about)}
                   </Col>
                   <Col style={styles.introImageContainer}>
                     <img src={data?.imageSource} alt="profile" />
